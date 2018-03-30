@@ -1,0 +1,56 @@
+/* YOUR CUSTOM STYLES */
+       html,
+        body,
+        .view {
+            height: 100%;
+        }
+              main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+  
+        /* Navigation*/
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        
+        .top-nav-collapse {
+            background-color: #000!important;
+        }
+        
+        footer.page-footer {
+            background-color: #3c4f74;
+            margin-top: 2rem;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+				 background: #000000;
+				  /* Old browsers */
+            }
+        }
+
+.md-form .prefix.active{color:#000000;}
+.active{
+	color: #2e2e2e!important;
+}
+.form-control:focus {
+    color: #464a4c;
+    background-color: #fff;
+    border-color: #2e2e2e;
+    outline: 0;
+}
+.md-form .label.active {
+  color: #2e2e2e;
+  }
+  input[type=date]:focus:not([readonly])+label,input[type=datetime-local]:focus:not([readonly])+label,input[type=email]:focus:not([readonly])+label,input[type=number]:focus:not([readonly])+label,input[type=password]:focus:not([readonly])+label,input[type=search-md]:focus:not([readonly])+label,input[type=search]:focus:not([readonly])+label,input[type=tel]:focus:not([readonly])+label,input[type=text]:focus:not([readonly])+label,input[type=time]:focus:not([readonly])+label,input[type=url]:focus:not([readonly])+label,textarea.md-textarea:focus:not([readonly])+label{
+  	color:#2e2e2e;
+ 
+  }
+  input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=search-md]:focus:not([readonly]), input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]) {
+  	border-bottom: 1px solid #2e2e2e;
+    box-shadow: 0 1px 0 0 #2e2e2e;
+
+}
